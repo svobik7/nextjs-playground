@@ -1,3 +1,5 @@
+UPDATE: seems ok in `next@canary`
+
 ## Describe the bug
 
 When using getStaticPaths with `fallback = true` then on every fallback render console throws `Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client`.

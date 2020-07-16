@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "next": "^9.4.4",
-    "next-roots": "^2.0.0-canary.1",
+    "next-roots": "^2.0.0-canary.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

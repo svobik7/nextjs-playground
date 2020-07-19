@@ -7,7 +7,12 @@ module.exports = {
   schemas: [
     {
       root: '*',
-      metaData: { title: 'Awesome Next Roots', background: 'grey' },
+      metaData: [
+        {
+          locale: '*',
+          data: { title: 'Awesome Next Roots', background: 'grey' },
+        },
+      ],
     },
     {
       root: 'home',
@@ -30,7 +35,7 @@ module.exports = {
         },
       ],
       params: { token: 'a1' },
-      metaData: { background: 'red' },
+      metaData: [{ locale: '*', data: { background: 'red' } }],
     },
     {
       root: 'auth/login',
@@ -52,7 +57,7 @@ module.exports = {
         },
       ],
       params: { token: 'a2' },
-      metaData: { background: 'green' },
+      metaData: [{ locale: '*', data: { background: 'green' } }],
     },
     {
       root: 'account/profile',
@@ -62,7 +67,7 @@ module.exports = {
         { locale: 'es', path: 'cuenta/perfil-:token' },
       ],
       params: { token: 'b1' },
-      metaData: { background: 'orange' },
+      metaData: [{ locale: '*', data: { background: 'orange' } }],
     },
     {
       root: 'account/settings',
@@ -72,7 +77,7 @@ module.exports = {
         { locale: 'es', path: 'cuenta/ajustes-:token' },
       ],
       params: { token: 'b2' },
-      metaData: { background: 'blue' },
+      metaData: [{ locale: '*', data: { background: 'blue' } }],
     },
 
     {
@@ -84,7 +89,7 @@ module.exports = {
           suffix: '',
         },
       ],
-      metaData: { background: 'magenta' },
+      metaData: [{ locale: '*', data: { background: 'magenta' } }],
     },
   ],
-}
+};

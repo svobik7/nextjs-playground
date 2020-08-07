@@ -3653,10 +3653,10 @@ neo-async@2.6.1, neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-next-roots@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/next-roots/-/next-roots-2.0.0.tgz#b78c7b3fe772da6889e2db66d260b5f8409a8cbb"
-  integrity sha512-7Ub/lVI/RCpFzsY8ZE9oyZCr3P+vqrh8f2H8onnSvX7BhEC2tp2nTQ0QcDE+G9i3j+TJP3iloYNBqLTMQE7v/w==
+next-roots@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/next-roots/-/next-roots-2.0.9.tgz#1962640a5a678b8e64e84efb492902411404b930"
+  integrity sha512-SsU72nvr5bVl10BR0iCg9I7bBh9HbCI0UXZAshrdgmXiN7jZRazBi1yGBagBNhVJ2OGzaDhA7Q3dllwHrpQY3w==
 
 next-tick@~1.0.0:
   version "1.0.0"

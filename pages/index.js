@@ -16,10 +16,6 @@ export default function Home() {
           <div className={[styles.grid, styles.gridBlue].join(' ')}>
             <p className={styles.description}>Universal links</p>
 
-            <a href='/' className={styles.card}>
-              <h3>Home&rarr;</h3>
-            </a>
-
             <a href='/products' className={styles.card}>
               <h3>Products&rarr;</h3>
             </a>
@@ -39,10 +35,6 @@ export default function Home() {
 
           <div className={[styles.grid, styles.gridRed].join(' ')}>
             <p className={styles.description}>Deep links</p>
-
-            <a href='rnhw://home' className={styles.card}>
-              <h3>Home&rarr;</h3>
-            </a>
 
             <a href='rnhw://products' className={styles.card}>
               <h3>Products&rarr;</h3>

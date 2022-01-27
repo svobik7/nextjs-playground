@@ -4,7 +4,10 @@
     "details": [
       {
         "appID": "org.reactjs.native.example.rnHW",
-        "paths": ["/app/", "/*"]
+        "paths": [
+          "/app/",
+          "/*"
+        ]
       }
     ]
   }

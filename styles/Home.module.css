@@ -71,14 +71,29 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.gridWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .grid {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   justify-content: center;
   flex-wrap: wrap;
 
   max-width: 800px;
-  margin-top: 3rem;
+  margin-top: 1rem;
+}
+
+.gridBlue {
+  background-color: rgb(132, 195, 253);
+}
+
+.gridRed {
+  background-color: rgb(255, 136, 136);
 }
 
 .card {

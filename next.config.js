@@ -3,11 +3,12 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 module.exports = withBundleAnalyzer({
-  async rewrites() {
+  async redirects() {
     return [
       {
-        source: '/.well-known/apple-app-site-association',
-        destination: '/.well-known/apple-app-site-association.json',
+        source: '/app/:path*',
+        destination: 'rnhw://:path*',
+        permanent: false,
       },
     ];
   },

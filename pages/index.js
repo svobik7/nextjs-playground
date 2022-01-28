@@ -12,46 +12,30 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>RN Links integration example</h1>
 
-        <div className={styles.gridWrapper}>
-          <div className={[styles.grid, styles.gridBlue].join(' ')}>
-            <p className={styles.description}>Universal links</p>
+        <div className={styles.grid}>
+          <p className={styles.description}>
+            Unfortunately iOs Universal links and Android App Links requires
+            additional stuff to be set to work properly (paid Apple Developer
+            Program, release key for Android). Because of that I created this
+            workaround site to be able to share "public URLs" which will open
+            the app. Basically the links below just opens deep links (schemas).
+          </p>
 
-            <a href='/products' className={styles.card}>
-              <h3>Products&rarr;</h3>
-            </a>
+          <a href='/app/products' className={styles.card}>
+            <h3>Products&rarr;</h3>
+          </a>
 
-            <a href='/products/denim-shirt' className={styles.card}>
-              <h3>Products - Denim shirt&rarr;</h3>
-            </a>
+          <a href='/app/products/denim-shirt' className={styles.card}>
+            <h3>Products - Denim shirt&rarr;</h3>
+          </a>
 
-            <a href='/cart' className={styles.card}>
-              <h3>Cart&rarr;</h3>
-            </a>
+          <a href='/app/cart' className={styles.card}>
+            <h3>Cart&rarr;</h3>
+          </a>
 
-            <a href='/auth/login' className={styles.card}>
-              <h3>Login&rarr;</h3>
-            </a>
-          </div>
-
-          <div className={[styles.grid, styles.gridRed].join(' ')}>
-            <p className={styles.description}>Deep links</p>
-
-            <a href='rnhw://products' className={styles.card}>
-              <h3>Products&rarr;</h3>
-            </a>
-
-            <a href='rnhw://products/denim-shirt' className={styles.card}>
-              <h3>Products - Denim shirt&rarr;</h3>
-            </a>
-
-            <a href='rnhw://cart' className={styles.card}>
-              <h3>Cart&rarr;</h3>
-            </a>
-
-            <a href='rnhw://auth/login' className={styles.card}>
-              <h3>Login&rarr;</h3>
-            </a>
-          </div>
+          <a href='/app/auth/login' className={styles.card}>
+            <h3>Login&rarr;</h3>
+          </a>
         </div>
       </main>
 

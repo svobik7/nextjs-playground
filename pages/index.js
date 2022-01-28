@@ -14,11 +14,8 @@ export default function Home() {
 
         <div className={styles.grid}>
           <p className={styles.description}>
-            Unfortunately iOs Universal links and Android App Links requires
-            additional stuff to be set to work properly (paid Apple Developer
-            Program, release key for Android). Because of that I created this
-            workaround site to be able to share "public URLs" which will open
-            the app. Basically the links below just opens deep links (schemas).
+            This is DEV workaround site to be able to share "public URLs" which
+            will redirect to app deep links.
           </p>
 
           <a href='/app/products' className={styles.card}>

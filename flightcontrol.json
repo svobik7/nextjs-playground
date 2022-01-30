@@ -1,0 +1,29 @@
+{
+  "environments": [
+    {
+      "id": "production",
+      "name": "Production",
+      "region": "eu-central-1",
+      "source": {
+        "branch": "main"
+      },
+      "services": [
+        {
+          "id": "my-nextjs",
+          "name": "my-nextjs",
+          "type": "fargate",
+          "cpu": 0.25,
+          "memory": 512,
+          "domain": "example.com",
+          "minInstances": 1,
+          "maxInstances": 1,
+          "buildCommand": "npm run build",
+          "startCommand": "npm run start",
+          "envVariables": {           
+            "SOMETHING_STATIC": "hello-world"
+          }
+        }
+      ]
+    }
+  ]
+}
